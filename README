@@ -1,4 +1,4 @@
-# Valida Cartão
+## Valida Cartão
 
 Este projeto é uma aplicação simples para identificar o tipo de cartão de crédito com base no número do cartão.
 
@@ -31,7 +31,7 @@ console.log(validateCardType(cardNumber)); // Output: "ELO"
 ```
 Execute o código e veja o tipo do cartão no console.
 
-:card Tipos de Cartões Suportados
+💳 Tipos de Cartões Suportados
 
 - VISA
 - MASTER CARD
