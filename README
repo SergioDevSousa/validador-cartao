@@ -1,0 +1,49 @@
+# Valida Cartão
+
+Este projeto é uma aplicação simples para identificar o tipo de cartão de crédito com base no número do cartão.
+
+## Estrutura do Projeto
+
+valida-cartao/ 
+├── assets/ 
+│    └── regra.png 
+├── src/ 
+│    └── index.js
+└── README
+
+## Como Usar
+
+1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+2. Clone este repositório.
+3. Navegue até o diretório `src` e execute o arquivo `index.js` com o comando:
+
+   ```bash
+   node index.js
+   ```
+
+Substitua o valor da variável cardNumber no código pelo número do cartão que deseja validar.
+Exemplo de Uso
+No arquivo src/index.js, você pode alterar o número do cartão:
+
+```javascript
+const cardNumber = "6011123456789012";
+console.log(validateCardType(cardNumber)); // Output: "ELO"
+```
+Execute o código e veja o tipo do cartão no console.
+
+:card Tipos de Cartões Suportados
+
+- VISA
+- MASTER CARD
+- ELO
+- AMERICAN EXPRESS
+- DISCOVER
+- HIPERCARD
+- VISA ELETRON
+- DINERS CLUB
+
+Contribuição
+Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias.
+
+Licença
+Este projeto está licenciado sob a licença MIT. ```
