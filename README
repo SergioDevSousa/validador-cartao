@@ -1,49 +1,61 @@
-## Valida Cartão
+💳 Valida Cartão
+Aplicação simples para identificar o tipo de cartão de crédito com base no número informado.
 
-Este projeto é uma aplicação simples para identificar o tipo de cartão de crédito com base no número do cartão.
+📁 Estrutura do Projeto
+css
+Copiar
+Editar
+valida-cartao/
+├── assets/
+│   └── regra.png
+├── src/
+│   └── index.js
+└── README.md
+🚀 Como Usar
+Certifique-se de ter o Node.js instalado.
 
-## Estrutura do Projeto
+Clone este repositório:
 
-valida-cartao/ 
-├── assets/ 
-│    └── regra.png 
-├── src/ 
-│    └── index.js
-└── README
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/valida-cartao.git
+Acesse o diretório src e execute o arquivo index.js:
 
-## Como Usar
+bash
+Copiar
+Editar
+cd valida-cartao/src
+node index.js
+No arquivo index.js, altere o valor da variável cardNumber para o número do cartão que deseja validar:
 
-1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
-2. Clone este repositório.
-3. Navegue até o diretório `src` e execute o arquivo `index.js` com o comando:
-
-   ```bash
-   node index.js
-   ```
-
-Substitua o valor da variável cardNumber no código pelo número do cartão que deseja validar.
-Exemplo de Uso
-No arquivo src/index.js, você pode alterar o número do cartão:
-
-```javascript
+javascript
+Copiar
+Editar
 const cardNumber = "6011123456789012";
-console.log(validateCardType(cardNumber)); // Output: "ELO"
-```
-Execute o código e veja o tipo do cartão no console.
+console.log(validateCardType(cardNumber)); // Saída: "ELO"
+Execute o código e veja o tipo do cartão diretamente no console.
 
 💳 Tipos de Cartões Suportados
+Visa
 
-- VISA
-- MASTER CARD
-- ELO
-- AMERICAN EXPRESS
-- DISCOVER
-- HIPERCARD
-- VISA ELETRON
-- DINERS CLUB
+MasterCard
 
-Contribuição
-Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias.
+Elo
 
-Licença
-Este projeto está licenciado sob a licença MIT. ```
+American Express
+
+Discover
+
+Hipercard
+
+Visa Electron
+
+Diners Club
+
+🤝 Contribuição
+Contribuições são bem-vindas!
+Abra uma issue ou envie um pull request para propor melhorias.
+
+📄 Licença
+Este projeto está licenciado sob a MIT License.
